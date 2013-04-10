@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4E7C81CE-532C-4EB0-B8E2-F977DAB2AA13}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TouchPadHandwriting</RootNamespace>
+    <AssemblyName>TouchPadHandwriting</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TouchPadHandwriting.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Ink, Version=6.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Microsoft.Ink.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Messages.zh-Hans.Designer.cs">
+      <DependentUpon>Messages.zh-Hans.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Messages.zh-Hant.Designer.cs">
+      <DependentUpon>Messages.zh-Hant.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\HandwritingExampleCharacter.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HandwritingExampleCharacter.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\KeyNames.zh-Hans.Designer.cs">
+      <DependentUpon>KeyNames.zh-Hans.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\KeyNames.zh-Hant.Designer.cs">
+      <DependentUpon>KeyNames.zh-Hant.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FormSetKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetKey.Designer.cs">
+      <DependentUpon>FormSetKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\KeyNames.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KeyNames.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Link.cs" />
+    <Compile Include="TextInputHelper.cs" />
+    <Compile Include="DoublePressKeyDetector.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HandwritingDisplayPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KeyboardHook.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecognizersHelper.cs" />
+    <EmbeddedResource Include="FormSetKey.zh-Hans.resx">
+      <DependentUpon>FormSetKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSettings.zh-Hans.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.zh-Hans.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.zh-Hant.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.zh-Hant.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\HandwritingExampleCharacter.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>HandwritingExampleCharacter.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\KeyNames.zh-Hans.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KeyNames.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.zh-Hans.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.zh-Hant.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetKey.zh-Hant.resx">
+      <DependentUpon>FormSetKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\KeyNames.zh-Hant.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KeyNames.zh-Hant.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetKey.resx">
+      <DependentUpon>FormSetKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSettings.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSettings.zh-Hant.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\KeyNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KeyNames.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resources\Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SynapticsTouchPad\SynapticsTouchPad.csproj">
+      <Project>{1C1A2379-4E10-433A-BD25-148E78E2D3E8}</Project>
+      <Name>SynapticsTouchPad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Icon.ico" />
+    <Content Include="Resources\Icon16.ico" />
+    <Content Include="Resources\HandwritingExampleCharacterStrokesWrite.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;handwritingDisplayPanel1.Parent" xml:space="preserve">
+    <value>tabPageHandwriting</value>
+  </data>
+  <data name="&gt;&gt;chkHotkeyCombination.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHotkeyCombination.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;chkHotkeyDblPress.Name" xml:space="preserve">
+    <value>chkHotkeyDblPress</value>
+  </data>
+  <data name="&gt;&gt;numRecognitionTime.Parent" xml:space="preserve">
+    <value>tabPageRecognizer</value>
+  </data>
+  <data name="&gt;&gt;cbbRecognizer.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>&amp;Stroke color</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tabPageShortcut.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabPageRecognizer</value>
+  </data>
+  <data name="chkHotkeyCombination.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageHotkey.Name" xml:space="preserve">
+    <value>tabPageHotkey</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cbbRecognizer.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;handwritingDisplayPanel1.Name" xml:space="preserve">
+    <value>handwritingDisplayPanel1</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkAutoInsertion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbbRecognizer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 118</value>
+  </data>
+  <data name="btnStrokeColor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkHotkeyCombination.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 68</value>
+  </data>
+  <data name="btnSetHotkey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;txtToggleHotkey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetHotkey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnStrokeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="comboBox1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="btnOpenStartup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnOpenStartup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtToggleHotkey.Text" xml:space="preserve">
+    <value>Ctrl + Win + N (Fixed)</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tabPageRecognizer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabPageRecognizer</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 115</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="numStrokeWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabPageHotkey</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>* Note: Handwriting recognizers are based on the built-in Tablet PC components available on Windows. To obtain recognizers for other languages, you will need to install additional MUI language packs, which is available on  Windows 7 Enterprise and Ultimate editions via Windows Update.</value>
+  </data>
+  <data name="chkAutoInsertion.Text" xml:space="preserve">
+    <value>Enable &amp;auto insertion</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 12</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkHotkeyCombination.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 16</value>
+  </data>
+  <data name="&gt;&gt;btnStrokeColor.Parent" xml:space="preserve">
+    <value>tabPageHandwriting</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 44</value>
+  </data>
+  <data name="&gt;&gt;tabPageRecognizer.Parent" xml:space="preserve">
+    <value>tabContainer</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStrokeColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbbRecognizer.Name" xml:space="preserve">
+    <value>cbbRecognizer</value>
+  </data>
+  <data name="btnSetHotkey.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;numStrokeWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 80</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>tabPageShortcut</value>
+  </data>
+  <data name="&gt;&gt;tabPageHotkey.Parent" xml:space="preserve">
+    <value>tabContainer</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPageHotkey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 265</value>
+  </data>
+  <data name="&gt;&gt;chkHotkeyDblPress.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>tabPageHandwriting</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabPageHandwriting.Parent" xml:space="preserve">
+    <value>tabContainer</value>
+  </data>
+  <data name="txtToggleKey.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="&gt;&gt;tabContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numStrokeWidth.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tabPageHotkey</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 121</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;txtToggleHotkey.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPageHandwriting.Text" xml:space="preserve">
+    <value>Handwriting</value>
+  </data>
+  <data name="&gt;&gt;tabContainer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkHotkeyDblPress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStrokeColor.Name" xml:space="preserve">
+    <value>btnStrokeColor</value>
+  </data>
+  <data name="numStrokeWidth.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="numRecognitionTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;btnSetHotkey.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageShortcut.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 141</value>
+  </data>
+  <data name="tabContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 291</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 12</value>
+  </data>
+  <data name="tabPageRecognizer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetToggleKey.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPageHotkey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 98</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtToggleHotkey.Name" xml:space="preserve">
+    <value>txtToggleHotkey</value>
+  </data>
+  <data name="&gt;&gt;tabPageRecognizer.Name" xml:space="preserve">
+    <value>tabPageRecognizer</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 20</value>
+  </data>
+  <data name="tabPageHotkey.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;tabPageHandwriting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkAutoInsertion.Parent" xml:space="preserve">
+    <value>tabPageRecognizer</value>
+  </data>
+  <data name="tabPageHotkey.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkHotkeyCombination.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Handwriting &amp;mode</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtToggleKey.Parent" xml:space="preserve">
+    <value>tabPageHotkey</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabPageRecognizer</value>
+  </data>
+  <data name="chkHotkeyDblPress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numStrokeWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPageShortcut.Parent" xml:space="preserve">
+    <value>tabContainer</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 12</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;tabPageShortcut.Name" xml:space="preserve">
+    <value>tabPageShortcut</value>
+  </data>
+  <data name="&gt;&gt;handwritingDisplayPanel1.Type" xml:space="preserve">
+    <value>TouchPadHandwriting.HandwritingDisplayPanel, TouchPadHandwriting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPageHandwriting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;tabPageHotkey.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkAutoInsertion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="numRecognitionTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="tabPageShortcut.Text" xml:space="preserve">
+    <value>Shortcut</value>
+  </data>
+  <data name="tabPageHandwriting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageShortcut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>tabPageShortcut</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Handwriting &amp;recognizer *</value>
+  </data>
+  <data name="&gt;&gt;numStrokeWidth.Name" xml:space="preserve">
+    <value>numStrokeWidth</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 147</value>
+  </data>
+  <data name="tabPageHotkey.Text" xml:space="preserve">
+    <value>Hotkey</value>
+  </data>
+  <data name="txtToggleHotkey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTAw9HKhAAABbUlEQVRYR+2Q
+        0XGAMAxD2akLME3XgM0YjaJgUSECMQdtf/rudIkdW/al+yfJbPp1ZgWx6ceJ0XXwbnqdGCUgR5G4o970
+        mGK8gZg53lUG+k1tPrrPGYowrAzmcfpdJcBrtWyQXqD2pnl7h9dq2eDRD+hpwGu1TCBLRLuBfO3tLL8A
+        r2KeobkA4DAV8xXgVcwz/PkPAC6xwwcw9nyFxRLKU12AnA27WGaxhPKcLqAD/CQeLyyW0D24xHItOsDc
+        2SmExy3KcKjvezXZdAA5yoieNGUoFwBcQk/Uqa6ImhS7IfoDrRO9KiVyO3bFLWWX0LPis6MUZmBtZmjt
+        RH+ZaJRHgthFcM8O8zO8qpQCB3mK4D4MwzyO4ybwZDgoRQpyKlKr9YXuDgelkCCmGBPcp2naVEOXCZ8m
+        0XocDvx+NVwJnxTR8r3AGVdvSvikibb2ALy7nMjfIlpXEHuOxJuz9YRuE/ZtULu2vItun9GLdN0XqJOI
+        8C7YNXUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnOpenStartup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 72</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Toggle TouchPad Handwriting on / off</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtToggleKey.Name" xml:space="preserve">
+    <value>txtToggleKey</value>
+  </data>
+  <data name="chkHotkeyDblPress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 18</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;numRecognitionTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtToggleHotkey.Parent" xml:space="preserve">
+    <value>tabPageHotkey</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 12</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkHotkeyDblPress.Parent" xml:space="preserve">
+    <value>tabPageHotkey</value>
+  </data>
+  <data name="&gt;&gt;btnSetToggleKey.Parent" xml:space="preserve">
+    <value>tabPageHotkey</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="handwritingDisplayPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkHotkeyDblPress.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 12</value>
+  </data>
+  <data name="tabContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSetHotkey.Parent" xml:space="preserve">
+    <value>tabPageHotkey</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnOpenStartup.Parent" xml:space="preserve">
+    <value>tabPageShortcut</value>
+  </data>
+  <data name="&gt;&gt;tabPageRecognizer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAutoInsertion.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAAAAEAIACoEAAAJgAAABAQAAABACAAaAQAAM4QAAAoAAAAIAAAAEAAAAABACAAAAAAAIAQ
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA////////////////////
+        //8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP//////////////////////////////
+        //////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD//////////////////////7+/v/+/v7//////////
+        //////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA/wAAAP8AAAD/AAAA////////////////////////////v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7////////////////////////////+AgID/gICA/4CAgP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////v7+//2YA
+        M///////////////////////f39//4CAgP+AgID/gICA/0BAQP//////QEBA//////8AAAD/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////
+        ////////ZgAz/39/f/+AgID/gICA/4CAgP//////QEBA//////9AQED//////0BAQP//////QEBA////
+        //8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////
+        //+AgID/gICA/4CAgP9mADP/QEBA//////9AQED//////0BAQP//////QEBA//////9AQED//////0BA
+        QP//////QEBA//////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/4CA
+        gP+AgID/gICA//////9AQED/ZgAz/0BAQP//////QEBA//////9AQED//////0BAQP//////QEBA////
+        //9AQED//////0BAQP//////QEBA//////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA////////////QEBA//////9mADP//////0BAQP//////QEBA//////9AQED//////0BA
+        QP//////QEBA//////9AQED//////0BAQP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA/0BAQP//////QEBA/2YAM/9AQED//////0BAQP//////QEBA////
+        //9AQED//////0BAQP//////AAAA/wAAAP8AAAD/AAAA/////////////////wAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0BAQP9mADP/ZgAz//////9AQED//////0BA
+        QP//////QEBA/wAAAP8AAAD/AAAA/wAAAP//////////////////////////////////////AAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/2YAM/9mADP/QEBA////
+        //8AAAD/AAAA/wAAAP8AAAD//////////////////////wAA//8AAP//AAD/////////////////////
+        //8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZgAz/2YA
+        M/8AAAD/AAAA//////////////////////8AAP///////wAA////////AAD///////8AAP//////////
+        /////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYA
+        M/9mADP//////////////////////wAA//8AAP///////wAA////////AAD//////////////////wAA
+        ////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAZgAz/2YAM////////////////////////////wAA/////////////////////////////wAA
+        //8AAP//AAD///////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABmADP/ZgAz/////////////////wAA//8AAP////////////8AAP//AAD//wAA
+        //8AAP///////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAZgAz/2YAM/8AAAD///////////////////////////8AAP//AAD/////
+        //////////////////8AAP//AAD/////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmADP/ZgAz/wAAAP//////////////////////////////
+        //8AAP//AAD//wAA//8AAP//AAD///////8AAP////////////////////////////8AAAD/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYAM/9mADP/AAAA////////////////////
+        ////////AAD//wAA////////////////////////AAD//wAA/////////////////////////////wAA
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmADP/ZgAz/wAAAAAAAAD/////////
+        //////////////////8AAP///////wAA//8AAP///////wAA////////AAD/////////////////////
+        ////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYAM/9mADP/AAAAAAAA
+        AP///////////////////////////wAA//8AAP///////////////////////wAA//8AAP///////wAA
+        //////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZgAz/2YA
+        M/8AAAAAAAAA////////////////////////////AAD///////8AAP//AAD///////8AAP//AAD//wAA
+        //8AAP//AAD//////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAD/////////////////AAD//wAA////////AAD//wAA//8AAP//AAD//wAA
+        ////////////////////////AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////AAD//wAA//8AAP//////////
+        //8AAP///////wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////
+        //8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////AAAA/wAA
+        AP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAA
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////8P///wB///AAP/8AAB/wAA
+        AP+AAAB/wAAAP+AAAB/wAAAP+AAAB/wAAAf+AAAH/wAAB/+AAAf/AAAH/wAAB/8AAAf+AAAH/gAAB/4A
+        AAf8gAAH/IAAB/yAAAf/gAAH/4AAf/+AB///gH///4f/////////////KAAAABAAAAAgAAAAAQAgAAAA
+        AABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAA
+        AP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/7+/
+        v/+/v7////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA////////////v7+//7+/
+        v/+/v7//v7+//////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/////////////////3sv
+        Vf+/v7//f39///////8/Pz///////z8/P///////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD//////z8/
+        P/+LP2X/Pz8///////8/Pz///////z8/P/8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AP//////XA81//////8AAAD/AAAA/wAAAP8AAAD/////////////////AAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAATAAm/0wAJv8AAAD/////////////////gID//wAA/////////////wAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAEwAJv///////////wAA//+AgP//gID//4CA//8AAP////////////8AAAD/AAAAAAAA
+        AAAAAAAAAAAAAGYAM/9MACb//////4CA//9HR///R0f//0dH//9HR///////////////////AAAA/wAA
+        AAAAAAAAAAAAAAAAAABmADP/TAAm/////////////////0dH//+AgP//gID//////////////////wAA
+        AP8AAAAAAAAAAAAAAABmADP/ZgAz/wAAAP///////////0dH//+AgP//gID//4CA//9HR///////////
+        //8AAAD/AAAAAAAAAAAAAAAAZgAz/2YAM/8AAAD///////////+AgP//AAD//wAA//8AAP//QECA/wAA
+        AP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////AAAA/wAAAP8gIED/AAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//yYA/h8mAOAPJgAAByYAgAMmAMABJgDgASYA8AEmAPAB
+        JgDgASYA4AEmAMABJgDAASYA8B8mAPH/JgD//yYA
+</value>
+  </data>
+  <data name="cbbRecognizer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 20</value>
+  </data>
+  <data name="btnSetHotkey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 88</value>
+  </data>
+  <data name="tabPageShortcut.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSetHotkey.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Stroke width</value>
+  </data>
+  <data name="&gt;&gt;btnStrokeColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPageShortcut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 265</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="txtToggleKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 40</value>
+  </data>
+  <data name="&gt;&gt;tabPageHotkey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>One character at a time</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtToggleKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAutoInsertion.Name" xml:space="preserve">
+    <value>chkAutoInsertion</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 12</value>
+  </data>
+  <data name="btnSetToggleKey.Text" xml:space="preserve">
+    <value>Set...</value>
+  </data>
+  <data name="chkHotkeyCombination.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtToggleKey.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabContainer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="btnOpenStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="btnSetToggleKey.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TouchPad Handwriting Settings</value>
+  </data>
+  <data name="btnSetToggleKey.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtToggleKey.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabPageRecognizer</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Auto insertion &amp;time delay (seconds)</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormSettings</value>
+  </data>
+  <data name="btnStrokeColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="numRecognitionTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="txtToggleHotkey.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tabPageHandwriting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 265</value>
+  </data>
+  <data name="&gt;&gt;btnSetToggleKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetHotkey.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageRecognizer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 265</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>tabPageRecognizer</value>
+  </data>
+  <data name="txtToggleHotkey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 90</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 12</value>
+  </data>
+  <data name="handwritingDisplayPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;cbbRecognizer.Parent" xml:space="preserve">
+    <value>tabPageRecognizer</value>
+  </data>
+  <data name="&gt;&gt;btnSetToggleKey.Name" xml:space="preserve">
+    <value>btnSetToggleKey</value>
+  </data>
+  <data name="tabPageHandwriting.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageRecognizer.Text" xml:space="preserve">
+    <value>Recognition</value>
+  </data>
+  <data name="&gt;&gt;numRecognitionTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>The majority of notebook computers have an additional Fn key on the keyboard. On some of them, the Fn key will generate a keyboard event, therefore it may be possible to use the Fn key on its own as a hotkey. If it can be used, it will be represented by its keyboard scancode.</value>
+  </data>
+  <data name="chkHotkeyDblPress.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabContainer.Name" xml:space="preserve">
+    <value>tabContainer</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabPageShortcut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkHotkeyCombination.Text" xml:space="preserve">
+    <value>&amp;Hotkey Combination</value>
+  </data>
+  <data name="&gt;&gt;btnOpenStartup.Name" xml:space="preserve">
+    <value>btnOpenStartup</value>
+  </data>
+  <data name="&gt;&gt;numRecognitionTime.Name" xml:space="preserve">
+    <value>numRecognitionTime</value>
+  </data>
+  <data name="tabContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;btnSetHotkey.Name" xml:space="preserve">
+    <value>btnSetHotkey</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBox1.Text" xml:space="preserve">
+    <value>One character at a time</value>
+  </data>
+  <data name="btnStrokeColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="numRecognitionTime.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPageRecognizer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbbRecognizer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPageRecognizer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 309</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 164</value>
+  </data>
+  <data name="&gt;&gt;btnOpenStartup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAutoInsertion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 16</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;handwritingDisplayPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOpenStartup.Text" xml:space="preserve">
+    <value>Browse "&amp;Startup" Folder</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="chkAutoInsertion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 46</value>
+  </data>
+  <data name="numStrokeWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 59</value>
+  </data>
+  <data name="btnSetToggleKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnSetHotkey.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetToggleKey.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPageHandwriting.Name" xml:space="preserve">
+    <value>tabPageHandwriting</value>
+  </data>
+  <data name="&gt;&gt;tabPageHandwriting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenStartup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Drag this icon to a folder or Desktop</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>284, 344</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>To automatically run this program at log in, simply drag the above icon to the "Startup" folder.</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="chkAutoInsertion.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chkHotkeyDblPress.Text" xml:space="preserve">
+    <value>&amp;Double-press key</value>
+  </data>
+  <data name="txtToggleKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 22</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtToggleKey.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>24, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>tabPageHandwriting</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;numStrokeWidth.Parent" xml:space="preserve">
+    <value>tabPageHandwriting</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>tabPageShortcut</value>
+  </data>
+  <data name="handwritingDisplayPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 309</value>
+  </data>
+  <data name="&gt;&gt;tabContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSetToggleKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 39</value>
+  </data>
+  <data name="btnStrokeColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="btnOpenStartup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnSetHotkey.Text" xml:space="preserve">
+    <value>Set...</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="cbbRecognizer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="chkHotkeyDblPress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 16</value>
+  </data>
+  <data name="chkAutoInsertion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="handwritingDisplayPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 160</value>
+  </data>
+  <data name="&gt;&gt;chkHotkeyCombination.Parent" xml:space="preserve">
+    <value>tabPageHotkey</value>
+  </data>
+  <data name="&gt;&gt;chkHotkeyCombination.Name" xml:space="preserve">
+    <value>chkHotkeyCombination</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabPageRecognizer.Text" xml:space="preserve">
+    <value>手写辨认</value>
+  </data>
+  <data name="tabPageHandwriting.Text" xml:space="preserve">
+    <value>手写显示</value>
+  </data>
+  <data name="tabPageHotkey.Text" xml:space="preserve">
+    <value>热键</value>
+  </data>
+  <data name="tabPageShortcut.Text" xml:space="preserve">
+    <value>捷径</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkAutoInsertion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 16</value>
+  </data>
+  <data name="chkAutoInsertion.Text" xml:space="preserve">
+    <value>自动输入可用 (&amp;A)</value>
+  </data>
+  <data name="comboBox1.Text" xml:space="preserve">
+    <value>每次書寫一個字</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 12</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>手写输入方式 (&amp;M)</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 12</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>自动输入延时 (秒) (&amp;T)</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>手写输入识别器* (&amp;R)</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>* 手写输入识别器是Windows 作业系统内建的平板电脑组件所提供的功能。如果想使用其他语言的手写输入辨认器，视窗作业系统需要装有指定语言套件 (MUI)。在 Windows 7 企业版及旗舰版中，语言套件可以透过Windows Update 安装。</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 12</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>笔迹宽度 (&amp;W)</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 12</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>笔迹颜色 (&amp;C)</value>
+  </data>
+  <data name="btnSetHotkey.Text" xml:space="preserve">
+    <value>设置...</value>
+  </data>
+  <data name="txtToggleHotkey.Text" xml:space="preserve">
+    <value>Ctrl + Win + N (固定)</value>
+  </data>
+  <data name="chkHotkeyCombination.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="chkHotkeyCombination.Text" xml:space="preserve">
+    <value>热键 (&amp;H)</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>大部分笔记本电脑均在键盘上设置有一个 Fn 键。某些键盘上的 Fn 键会产生讯息，可以用作这个程序的热键。如果 Fn 键可用，该键通常会以其扫描码 (scancode) 表示。</value>
+  </data>
+  <data name="btnSetToggleKey.Text" xml:space="preserve">
+    <value>设置...</value>
+  </data>
+  <data name="chkHotkeyDblPress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 16</value>
+  </data>
+  <data name="chkHotkeyDblPress.Text" xml:space="preserve">
+    <value>双击按键 (&amp;D)</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 12</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>切换触控板手写板开关</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 12</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>拖曳这个图示到桌面或资料夹</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTAw9HKhAAABbUlEQVRYR+2Q
+        0XGAMAxD2akLME3XgM0YjaJgUSECMQdtf/rudIkdW/al+yfJbPp1ZgWx6ceJ0XXwbnqdGCUgR5G4o970
+        mGK8gZg53lUG+k1tPrrPGYowrAzmcfpdJcBrtWyQXqD2pnl7h9dq2eDRD+hpwGu1TCBLRLuBfO3tLL8A
+        r2KeobkA4DAV8xXgVcwz/PkPAC6xwwcw9nyFxRLKU12AnA27WGaxhPKcLqAD/CQeLyyW0D24xHItOsDc
+        2SmExy3KcKjvezXZdAA5yoieNGUoFwBcQk/Uqa6ImhS7IfoDrRO9KiVyO3bFLWWX0LPis6MUZmBtZmjt
+        RH+ZaJRHgthFcM8O8zO8qpQCB3mK4D4MwzyO4ybwZDgoRQpyKlKr9YXuDgelkCCmGBPcp2naVEOXCZ8m
+        0XocDvx+NVwJnxTR8r3AGVdvSvikibb2ALy7nMjfIlpXEHuOxJuz9YRuE/ZtULu2vItun9GLdN0XqJOI
+        8C7YNXUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnOpenStartup.Text" xml:space="preserve">
+    <value>浏览「启动」资料夹 (&amp;S)</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>如果要随机执行本程序，拖曳上面的图示到「启动」资料夹中即可。</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>确定 (&amp;O)</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消 (&amp;C)</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAAAAEAIACoEAAAJgAAABAQAAABACAAaAQAAM4QAAAoAAAAIAAAAEAAAAABACAAAAAAAIAQ
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA////////////////////
+        //8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP//////////////////////////////
+        //////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD//////////////////////7+/v/+/v7//////////
+        //////////////////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA/wAAAP8AAAD/AAAA////////////////////////////v7+//7+/v/+/v7//v7+//7+/
+        v/+/v7////////////////////////////+AgID/gICA/4CAgP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////////////v7+//2YA
+        M///////////////////////f39//4CAgP+AgID/gICA/0BAQP//////QEBA//////8AAAD/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////
+        ////////ZgAz/39/f/+AgID/gICA/4CAgP//////QEBA//////9AQED//////0BAQP//////QEBA////
+        //8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////
+        //+AgID/gICA/4CAgP9mADP/QEBA//////9AQED//////0BAQP//////QEBA//////9AQED//////0BA
+        QP//////QEBA//////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/4CA
+        gP+AgID/gICA//////9AQED/ZgAz/0BAQP//////QEBA//////9AQED//////0BAQP//////QEBA////
+        //9AQED//////0BAQP//////QEBA//////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA////////////QEBA//////9mADP//////0BAQP//////QEBA//////9AQED//////0BA
+        QP//////QEBA//////9AQED//////0BAQP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA/0BAQP//////QEBA/2YAM/9AQED//////0BAQP//////QEBA////
+        //9AQED//////0BAQP//////AAAA/wAAAP8AAAD/AAAA/////////////////wAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0BAQP9mADP/ZgAz//////9AQED//////0BA
+        QP//////QEBA/wAAAP8AAAD/AAAA/wAAAP//////////////////////////////////////AAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/2YAM/9mADP/QEBA////
+        //8AAAD/AAAA/wAAAP8AAAD//////////////////////wAA//8AAP//AAD/////////////////////
+        //8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZgAz/2YA
+        M/8AAAD/AAAA//////////////////////8AAP///////wAA////////AAD///////8AAP//////////
+        /////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYA
+        M/9mADP//////////////////////wAA//8AAP///////wAA////////AAD//////////////////wAA
+        ////////////////////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAZgAz/2YAM////////////////////////////wAA/////////////////////////////wAA
+        //8AAP//AAD///////////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABmADP/ZgAz/////////////////wAA//8AAP////////////8AAP//AAD//wAA
+        //8AAP///////////////////////////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAZgAz/2YAM/8AAAD///////////////////////////8AAP//AAD/////
+        //////////////////8AAP//AAD/////////////////////////////AAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmADP/ZgAz/wAAAP//////////////////////////////
+        //8AAP//AAD//wAA//8AAP//AAD///////8AAP////////////////////////////8AAAD/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYAM/9mADP/AAAA////////////////////
+        ////////AAD//wAA////////////////////////AAD//wAA/////////////////////////////wAA
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmADP/ZgAz/wAAAAAAAAD/////////
+        //////////////////8AAP///////wAA//8AAP///////wAA////////AAD/////////////////////
+        ////////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYAM/9mADP/AAAAAAAA
+        AP///////////////////////////wAA//8AAP///////////////////////wAA//8AAP///////wAA
+        //////////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZgAz/2YA
+        M/8AAAAAAAAA////////////////////////////AAD///////8AAP//AAD///////8AAP//AAD//wAA
+        //8AAP//AAD//////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAD/////////////////AAD//wAA////////AAD//wAA//8AAP//AAD//wAA
+        ////////////////////////AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////AAD//wAA//8AAP//////////
+        //8AAP///////wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////////
+        //8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////AAAA/wAA
+        AP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAA
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////////////8P///wB///AAP/8AAB/wAA
+        AP+AAAB/wAAAP+AAAB/wAAAP+AAAB/wAAAf+AAAH/wAAB/+AAAf/AAAH/wAAB/8AAAf+AAAH/gAAB/4A
+        AAf8gAAH/IAAB/yAAAf/gAAH/4AAf/+AB///gH///4f/////////////KAAAABAAAAAgAAAAAQAgAAAA
+        AABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAA
+        AP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/7+/
+        v/+/v7////////////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA////////////v7+//7+/
+        v/+/v7//v7+//////////////////wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/////////////////3sv
+        Vf+/v7//f39///////8/Pz///////z8/P///////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD//////z8/
+        P/+LP2X/Pz8///////8/Pz///////z8/P/8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AP//////XA81//////8AAAD/AAAA/wAAAP8AAAD/////////////////AAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAATAAm/0wAJv8AAAD/////////////////gID//wAA/////////////wAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAEwAJv///////////wAA//+AgP//gID//4CA//8AAP////////////8AAAD/AAAAAAAA
+        AAAAAAAAAAAAAGYAM/9MACb//////4CA//9HR///R0f//0dH//9HR///////////////////AAAA/wAA
+        AAAAAAAAAAAAAAAAAABmADP/TAAm/////////////////0dH//+AgP//gID//////////////////wAA
+        AP8AAAAAAAAAAAAAAABmADP/ZgAz/wAAAP///////////0dH//+AgP//gID//4CA//9HR///////////
+        //8AAAD/AAAAAAAAAAAAAAAAZgAz/2YAM/8AAAD///////////+AgP//AAD//wAA//8AAP//QECA/wAA
+        AP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////AAAA/wAAAP8gIED/AAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//yYA/h8mAOAPJgAAByYAgAMmAMABJgDgASYA8AEmAPAB
+        JgDgASYA4AEmAMABJgDAASYA8B8mAPH/JgD//yYA
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>触控板手写板设置</value>
+  </data>
+</root>
