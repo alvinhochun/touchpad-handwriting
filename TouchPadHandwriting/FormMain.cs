@@ -393,7 +393,16 @@ namespace TouchPadHandwriting
         {
             if (this.Visible)
             {
-                this.touchPad.ExclusiveCapture = true;
+                try
+                {
+                    this.touchPad.ExclusiveCapture = true;
+                }
+                catch (UnauthorizedAccessException)
+                {
+                    // Usually happens when hotkey set to Left Control and user is zooming using Synaptics touchpad
+                    this.Hide();
+                    return;
+                }
                 this.touchPad.ShouldRaiseEvents = true;
             }
             else
