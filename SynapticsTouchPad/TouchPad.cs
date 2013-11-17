@@ -58,8 +58,12 @@ namespace AlvinHoChun.SynapticsTouchPad
             // Activates Synaptics API
             synApiCtrl.Activate();
 
-            // Get device handle
-            deviceHandle = synApiCtrl.FindDevice(SynConnectionType.SE_ConnectionAny, SynDeviceType.SE_DeviceTouchPad, -1);
+            // Try hard to get a device (usually after resuming from sleep)
+            for (int i = 0; deviceHandle < 0 && i < 20; i++, System.Threading.Thread.Sleep(500))
+            {
+                // Get device handle
+                deviceHandle = synApiCtrl.FindDevice(SynConnectionType.SE_ConnectionAny, SynDeviceType.SE_DeviceTouchPad, -1);
+            }
 
             // Select the device
             synDeviceCtrl.Select(deviceHandle);
