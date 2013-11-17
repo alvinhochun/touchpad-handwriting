@@ -329,9 +329,9 @@ namespace TouchPadHandwriting
             get
             {
                 CreateParams cp = base.CreateParams;
-                //cp.ExStyle |= 0x8000000 /* WS_EX_NONACTIVATED */ | 0x80000 /* WS_EX_LAYERED */ | 0x20 /* WS_EX_TRANSPARENT */ | 0x80 /* WS_EX_TOOLWINDOW */;
+                //cp.ExStyle |= 0x8000000 /* WS_EX_NOACTIVATED */ | 0x80000 /* WS_EX_LAYERED */ | 0x20 /* WS_EX_TRANSPARENT */ | 0x80 /* WS_EX_TOOLWINDOW */;
                 //cp.ExStyle |= 0x80000 /* WS_EX_LAYERED */ | 0x20 /* WS_EX_TRANSPARENT */;
-                cp.ExStyle |= 0x8000000 /* WS_EX_NONACTIVATED */;
+                cp.ExStyle |= 0x8000000 /* WS_EX_NOACTIVATED */;
                 return cp;
             }
         }
