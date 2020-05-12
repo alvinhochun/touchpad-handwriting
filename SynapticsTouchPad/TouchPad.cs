@@ -77,9 +77,9 @@ namespace AlvinHoChun.SynapticsTouchPad
             xMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XLoBorder);
             xMax = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XHiBorder);
             xDiff = xMax - xMin;
-            //yMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XLoSensor);
+            //yMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YLoSensor);
             //yMax = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YHiSensor);
-            yMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XLoBorder);
+            yMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YLoBorder);
             yMax = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YHiBorder);
             yDiff = yMax - yMin;
 
