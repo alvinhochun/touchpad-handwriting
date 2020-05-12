@@ -106,6 +106,8 @@ namespace AlvinHoChun.SynapticsTouchPad
             bool isFingerDownOld = isFingerDown;
             int xOld = x;
             int yOld = y;
+            var xCalcOld = xCalc;
+            var yCalcOld = yCalc;
 
             // Load the packet
             synDeviceCtrl.LoadPacket(synPacketCtrl);
@@ -151,7 +153,9 @@ namespace AlvinHoChun.SynapticsTouchPad
                         FingerEventHandler fUp = this.FingerUp;
                         if (fUp != null)
                         {
-                            fUp(this, new FingerEventArgs(true, xCalc, yCalc));
+                            // The coordinates from SynCOMAPI after finger up can be invalid,
+                            // so we provide the old coordinates.
+                            fUp(this, new FingerEventArgs(true, xCalcOld, yCalcOld));
                         }
                     }
                 }
