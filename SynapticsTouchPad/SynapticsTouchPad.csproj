@@ -56,6 +56,12 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TouchPadInterface\TouchPadInterface.csproj">
+      <Project>{0eb40cac-5fdc-4480-9a3f-9a41eeb402e2}</Project>
+      <Name>TouchPadInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

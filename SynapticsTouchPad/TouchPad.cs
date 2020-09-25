@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using alvinhc.TouchPadInterface;
 
 using Marshal = System.Runtime.InteropServices.Marshal;
 
@@ -22,7 +23,7 @@ namespace AlvinHoChun.SynapticsTouchPad
     /// <summary>
     /// Represents a Synaptics TouchPad.
     /// </summary>
-    public class TouchPad
+    public class TouchPad : ITouchPad
     {
         #region Private fields
 
@@ -166,24 +167,6 @@ namespace AlvinHoChun.SynapticsTouchPad
 
         #region Public events
 
-        public class FingerEventArgs : EventArgs
-        {
-            private bool fingerDown;
-            private double x, y;
-
-            public bool FingerDown { get { return fingerDown; } }
-            public double X { get { return x; } }
-            public double Y { get { return y; } }
-
-            public FingerEventArgs(bool fingerDown, double x, double y)
-            {
-                this.fingerDown = fingerDown;
-                this.x = x;
-                this.y = y;
-            }
-        }
-        public delegate void FingerEventHandler(TouchPad sender, FingerEventArgs e);
-
         /// <summary>
         /// Occurs when a finger touches the touchpad.
         /// </summary>
@@ -201,8 +184,6 @@ namespace AlvinHoChun.SynapticsTouchPad
         /// </summary>
         /// <remarks>This event may not be raised on the main thread.</remarks>
         public event FingerEventHandler FingerUp;
-
-        public delegate void ExclusiveCaptureChangedEventHandler(TouchPad sender, EventArgs e);
 
         /// <summary>
         /// Occurs when the ExclusiveCapture property has changed.

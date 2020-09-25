@@ -11,6 +11,7 @@ using System.Runtime.InteropServices;
 using Microsoft.Ink;
 
 using AlvinHoChun.SynapticsTouchPad;
+using alvinhc.TouchPadInterface;
 
 namespace TouchPadHandwriting
 {
@@ -34,9 +35,9 @@ namespace TouchPadHandwriting
 
             this.touchPad.ShouldRaiseEvents = false;
 
-            this.touchPad.FingerDown += new TouchPad.FingerEventHandler(touchPad_FingerDown);
-            this.touchPad.FingerMove += new TouchPad.FingerEventHandler(touchPad_FingerMove);
-            this.touchPad.FingerUp += new TouchPad.FingerEventHandler(touchPad_FingerUp);
+            this.touchPad.FingerDown += new FingerEventHandler(touchPad_FingerDown);
+            this.touchPad.FingerMove += new FingerEventHandler(touchPad_FingerMove);
+            this.touchPad.FingerUp += new FingerEventHandler(touchPad_FingerUp);
 
             this.dblPressDetector = new KeyboardDoublePressDetector(this.keyboardHook);
             this.dblPressDetector.KeyDoublePressed += new KeyboardDoublePressDetector.KeyboardDoublePressEventHandler(dblPressDetector_KeyDoublePressed);
@@ -242,11 +243,11 @@ namespace TouchPadHandwriting
             base.Dispose(disposing);
         }
 
-        void touchPad_FingerDown(TouchPad sender, TouchPad.FingerEventArgs e)
+        void touchPad_FingerDown(ITouchPad sender, FingerEventArgs e)
         {
             if (this.InvokeRequired)
             {
-                this.BeginInvoke((TouchPad.FingerEventHandler)touchPad_FingerDown, sender, e);
+                this.BeginInvoke((FingerEventHandler)touchPad_FingerDown, sender, e);
             }
             else
             {
@@ -259,11 +260,11 @@ namespace TouchPadHandwriting
             }
         }
 
-        void touchPad_FingerMove(TouchPad sender, TouchPad.FingerEventArgs e)
+        void touchPad_FingerMove(ITouchPad sender, FingerEventArgs e)
         {
             if (this.InvokeRequired)
             {
-                this.BeginInvoke((TouchPad.FingerEventHandler)touchPad_FingerMove, sender, e);
+                this.BeginInvoke((FingerEventHandler)touchPad_FingerMove, sender, e);
             }
             else
             {
@@ -271,11 +272,11 @@ namespace TouchPadHandwriting
             }
         }
 
-        void touchPad_FingerUp(TouchPad sender, TouchPad.FingerEventArgs e)
+        void touchPad_FingerUp(ITouchPad sender, FingerEventArgs e)
         {
             if (this.InvokeRequired)
             {
-                this.BeginInvoke((TouchPad.FingerEventHandler)touchPad_FingerUp, sender, e);
+                this.BeginInvoke((FingerEventHandler)touchPad_FingerUp, sender, e);
             }
             else
             {

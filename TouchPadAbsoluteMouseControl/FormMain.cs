@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
 using AlvinHoChun.SynapticsTouchPad;
+using alvinhc.TouchPadInterface;
 
 namespace TouchPadAbsoluteMouseControl
 {
@@ -18,9 +19,9 @@ namespace TouchPadAbsoluteMouseControl
         {
             InitializeComponent();
             setRegion(Screen.PrimaryScreen.Bounds);
-            touchPad.FingerDown += new TouchPad.FingerEventHandler(touchPad_FingerDown);
-            touchPad.FingerMove += new TouchPad.FingerEventHandler(touchPad_FingerMove);
-            touchPad.FingerUp += new TouchPad.FingerEventHandler(touchPad_FingerUp);
+            touchPad.FingerDown += new FingerEventHandler(touchPad_FingerDown);
+            touchPad.FingerMove += new FingerEventHandler(touchPad_FingerMove);
+            touchPad.FingerUp += new FingerEventHandler(touchPad_FingerUp);
         }
 
         Rectangle region;
@@ -87,7 +88,7 @@ namespace TouchPadAbsoluteMouseControl
         readonly TouchPad touchPad = new TouchPad();
         bool enabled = false;
 
-        void touchPad_FingerDown(TouchPad sender, TouchPad.FingerEventArgs e)
+        void touchPad_FingerDown(ITouchPad sender, FingerEventArgs e)
         {
             if (enabled)
             {
@@ -104,7 +105,7 @@ namespace TouchPadAbsoluteMouseControl
             }
         }
 
-        void touchPad_FingerMove(TouchPad sender, TouchPad.FingerEventArgs e)
+        void touchPad_FingerMove(ITouchPad sender, FingerEventArgs e)
         {
             if (enabled)
             {
@@ -112,7 +113,7 @@ namespace TouchPadAbsoluteMouseControl
             }
         }
 
-        void touchPad_FingerUp(TouchPad sender, TouchPad.FingerEventArgs e)
+        void touchPad_FingerUp(ITouchPad sender, FingerEventArgs e)
         {
             if (enabled)
             {

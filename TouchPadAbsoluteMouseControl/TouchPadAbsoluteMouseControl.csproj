@@ -112,6 +112,10 @@
       <Project>{1C1A2379-4E10-433A-BD25-148E78E2D3E8}</Project>
       <Name>SynapticsTouchPad</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TouchPadInterface\TouchPadInterface.csproj">
+      <Project>{0EB40CAC-5FDC-4480-9A3F-9A41EEB402E2}</Project>
+      <Name>TouchPadInterface</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

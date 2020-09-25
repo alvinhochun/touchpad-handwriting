@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using alvinhc.TouchPadInterface;
 using AlvinHoChun.SynapticsTouchPad;
 
 namespace AlvinHoChun.TouchPadAbsolute
@@ -16,14 +16,14 @@ namespace AlvinHoChun.TouchPadAbsolute
         public FormMain()
         {
             InitializeComponent();
-            touchPad.FingerMove += new TouchPad.FingerEventHandler(touchPad_FingerMove);
+            touchPad.FingerMove += new FingerEventHandler(touchPad_FingerMove);
         }
 
-        void touchPad_FingerMove(TouchPad sender, TouchPad.FingerEventArgs e)
+        void touchPad_FingerMove(ITouchPad sender, FingerEventArgs e)
         {
             if (InvokeRequired)
             {
-                TouchPad.FingerEventHandler h = new TouchPad.FingerEventHandler(touchPad_FingerMove);
+                FingerEventHandler h = new FingerEventHandler(touchPad_FingerMove);
                 Invoke(h, sender, e);
             }
             else
