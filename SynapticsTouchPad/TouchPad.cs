@@ -73,15 +73,15 @@ namespace AlvinHoChun.SynapticsTouchPad
             synDeviceCtrl.Activate();
 
             // Get device properties
-            //xMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XLoSensor);
-            //xMax = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XHiSensor);
-            xMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XLoBorder);
-            xMax = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XHiBorder);
+            xMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XLoSensor);
+            xMax = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XHiSensor);
+            //xMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XLoBorder);
+            //xMax = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_XHiBorder);
             xDiff = xMax - xMin;
-            //yMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YLoSensor);
-            //yMax = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YHiSensor);
-            yMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YLoBorder);
-            yMax = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YHiBorder);
+            yMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YLoSensor);
+            yMax = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YHiSensor);
+            //yMin = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YLoBorder);
+            //yMax = synDeviceCtrl.GetLongProperty(SynDeviceProperty.SP_YHiBorder);
             yDiff = yMax - yMin;
 
             // Add event listener
