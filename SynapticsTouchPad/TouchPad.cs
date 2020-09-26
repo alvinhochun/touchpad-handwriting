@@ -107,8 +107,6 @@ namespace AlvinHoChun.SynapticsTouchPad
             bool isFingerDownOld = isFingerDown;
             int xOld = x;
             int yOld = y;
-            var xCalcOld = xCalc;
-            var yCalcOld = yCalc;
 
             // Load the packet
             synDeviceCtrl.LoadPacket(synPacketCtrl);
@@ -156,7 +154,7 @@ namespace AlvinHoChun.SynapticsTouchPad
                         {
                             // The coordinates from SynCOMAPI after finger up can be invalid,
                             // so we provide the old coordinates.
-                            fUp(this, new FingerEventArgs(true, xCalcOld, yCalcOld));
+                            fUp(this, new FingerEventArgs(false, 0.0, 0.0));
                         }
                     }
                 }
@@ -180,7 +178,7 @@ namespace AlvinHoChun.SynapticsTouchPad
         public event FingerEventHandler FingerMove;
 
         /// <summary>
-        /// Occurs when a finger leaves the touchpad.
+        /// Occurs when a finger leaves the touchpad. The event args does not contain valid coordinates.
         /// </summary>
         /// <remarks>This event may not be raised on the main thread.</remarks>
         public event FingerEventHandler FingerUp;

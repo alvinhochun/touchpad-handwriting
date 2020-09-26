@@ -48,7 +48,7 @@ namespace alvinhc.TouchPadInterface
         event FingerEventHandler FingerMove;
 
         /// <summary>
-        /// Occurs when a finger leaves the touchpad.
+        /// Occurs when a finger leaves the touchpad. The event args does not contain valid coordinates.
         /// </summary>
         /// <remarks>This event may not be raised on the main thread.</remarks>
         event FingerEventHandler FingerUp;

@@ -279,7 +279,7 @@ namespace TouchPadHandwriting
             }
             else
             {
-                this.handwritingDisplayPanel1.AddStrokePoint(e.X, e.Y);
+                //this.handwritingDisplayPanel1.AddStrokePoint(e.X, e.Y);
                 this.ink.CreateStroke(this.handwritingDisplayPanel1.EndStroke());
                 this.updateRecognitionResult();
                 //RecognitionResult result = this.ink.Strokes.RecognitionResult;

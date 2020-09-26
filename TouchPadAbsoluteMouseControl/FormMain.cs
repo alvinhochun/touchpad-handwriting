@@ -116,7 +116,7 @@ namespace TouchPadAbsoluteMouseControl
         {
             if (enabled)
             {
-                Cursor.Position = new Point((int)(e.X * region.Width) + region.Left, (int)(e.Y * region.Height) + region.Top);
+                //Cursor.Position = new Point((int)(e.X * region.Width) + region.Left, (int)(e.Y * region.Height) + region.Top);
                 //mouse_event(MouseEventFlags.LeftUp, 0, 0, 0, IntPtr.Zero);
                 InputSender.SendInput(new InputSender.Input[]{
                     new InputSender.Input{
