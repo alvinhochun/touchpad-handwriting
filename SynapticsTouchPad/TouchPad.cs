@@ -183,12 +183,6 @@ namespace AlvinHoChun.SynapticsTouchPad
         /// <remarks>This event may not be raised on the main thread.</remarks>
         public event FingerEventHandler FingerUp;
 
-        /// <summary>
-        /// Occurs when the ExclusiveCapture property has changed.
-        /// </summary>
-        /// <remarks>This event is raised on the same thread which changes the ExclusiveCapture property.</remarks>
-        public event ExclusiveCaptureChangedEventHandler ExclusiveCaptureChanged;
-
         #endregion
 
         #region Public readonly properties
@@ -257,10 +251,6 @@ namespace AlvinHoChun.SynapticsTouchPad
                     synDeviceCtrl.Unacquire();
                 }
                 acquired = value;
-                if (ExclusiveCaptureChanged != null)
-                {
-                    ExclusiveCaptureChanged(this, EventArgs.Empty);
-                }
             }
         }
 

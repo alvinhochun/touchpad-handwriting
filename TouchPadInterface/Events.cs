@@ -22,6 +22,4 @@ namespace alvinhc.TouchPadInterface
 
     public delegate void FingerEventHandler(ITouchPad sender, FingerEventArgs e);
 
-    public delegate void ExclusiveCaptureChangedEventHandler(ITouchPad sender, EventArgs e);
-
 }

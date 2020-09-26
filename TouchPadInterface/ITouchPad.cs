@@ -52,11 +52,5 @@ namespace alvinhc.TouchPadInterface
         /// </summary>
         /// <remarks>This event may not be raised on the main thread.</remarks>
         event FingerEventHandler FingerUp;
-
-        /// <summary>
-        /// Occurs when the ExclusiveCapture property has changed.
-        /// </summary>
-        /// <remarks>This event is raised on the same thread which changes the ExclusiveCapture property.</remarks>
-        event ExclusiveCaptureChangedEventHandler ExclusiveCaptureChanged;
     }
 }
