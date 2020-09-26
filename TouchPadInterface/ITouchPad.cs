@@ -8,21 +8,6 @@ namespace alvinhc.TouchPadInterface
     public interface ITouchPad
     {
         /// <summary>
-        /// Gets the value indicating whether a finger is presented on the TouchPad.
-        /// </summary>
-        bool IsFingerDown { get; }
-
-        /// <summary>
-        /// Gets the absolute horizontal position of the finger, where 0 represents leftmost and 1 represents rightmost.
-        /// </summary>
-        double X { get; }
-
-        /// <summary>
-        /// Gets the absolute vertical position of the finger, where 0 represents topmost and 1 represents downmost.
-        /// </summary>
-        double Y { get; }
-
-        /// <summary>
         /// Gets or sets the value indicating whether this object captures the TouchPad exclusively.
         /// If true, the device will not send mouse events to Windows.
         /// </summary>
