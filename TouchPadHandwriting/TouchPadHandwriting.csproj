@@ -192,10 +192,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SynapticsTouchPad\SynapticsTouchPad.csproj">
-      <Project>{1C1A2379-4E10-433A-BD25-148E78E2D3E8}</Project>
-      <Name>SynapticsTouchPad</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TouchPadInterface\TouchPadInterface.csproj">
       <Project>{0EB40CAC-5FDC-4480-9A3F-9A41EEB402E2}</Project>
       <Name>TouchPadInterface</Name>
@@ -207,6 +203,9 @@
     <Content Include="Resources\HandwritingExampleCharacterStrokesWrite.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /d /y "$(SolutionDir)\SynapticsTouchPadIpcClient\bin\$(ConfigurationName)\*.*" "$(TargetDir)"</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

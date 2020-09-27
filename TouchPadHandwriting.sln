@@ -16,6 +16,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchPadAbsoluteMouseContro
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchPadHandwriting", "TouchPadHandwriting\TouchPadHandwriting.csproj", "{4E7C81CE-532C-4EB0-B8E2-F977DAB2AA13}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58E9A7AE-F343-4332-AE8B-B3D2DDBB2717} = {58E9A7AE-F343-4332-AE8B-B3D2DDBB2717}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchPadInterface", "TouchPadInterface\TouchPadInterface.csproj", "{0EB40CAC-5FDC-4480-9A3F-9A41EEB402E2}"
 EndProject

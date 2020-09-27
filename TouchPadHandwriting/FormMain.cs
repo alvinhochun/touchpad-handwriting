@@ -9,7 +9,6 @@ using System.Runtime.InteropServices;
 
 using Microsoft.Ink;
 
-using AlvinHoChun.SynapticsTouchPad;
 using alvinhc.TouchPadInterface;
 
 namespace TouchPadHandwriting
@@ -314,7 +313,7 @@ namespace TouchPadHandwriting
             }
         }
 
-        readonly TouchPad touchPad = new TouchPad();
+        readonly ITouchPad touchPad = new IpcTouchPad(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(Application.ExecutablePath), "SynapticsTouchPadIpcClient.exe"));
         readonly KeyboardHook keyboardHook = new KeyboardHook();
         readonly KeyboardDoublePressDetector dblPressDetector;
 
@@ -401,6 +400,7 @@ namespace TouchPadHandwriting
                 catch (UnauthorizedAccessException)
                 {
                     // Usually happens when hotkey set to Left Control and user is zooming using Synaptics touchpad
+                    // NOTE: Not applicable with out-of-process provider, but maybe there should be an alternative...
                     this.Hide();
                     return;
                 }
