@@ -395,6 +395,7 @@ namespace TouchPadHandwriting
             {
                 try
                 {
+                    this.touchPad.Enabled = true;
                     this.touchPad.ExclusiveCapture = true;
                 }
                 catch (UnauthorizedAccessException)
@@ -413,6 +414,7 @@ namespace TouchPadHandwriting
                 this.Invalidate();
                 this.touchPad.ExclusiveCapture = false;
                 this.touchPad.ShouldRaiseEvents = false;
+                this.touchPad.Enabled = false;
             }
         }
 
