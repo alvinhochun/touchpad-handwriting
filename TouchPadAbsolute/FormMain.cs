@@ -6,7 +6,6 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using alvinhc.TouchPadInterface;
-using AlvinHoChun.SynapticsTouchPad;
 
 namespace AlvinHoChun.TouchPadAbsolute
 {
@@ -31,7 +30,7 @@ namespace AlvinHoChun.TouchPadAbsolute
             }
         }
 
-        readonly TouchPad touchPad = new TouchPad();
+        readonly ITouchPad touchPad = new IpcTouchPad(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(Application.ExecutablePath), "SynapticsTouchPadIpcClient.exe"));
 
         private void chkExclusive_CheckedChanged(object sender, EventArgs e)
         {

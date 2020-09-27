@@ -7,7 +7,6 @@ using System.Text;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
-using AlvinHoChun.SynapticsTouchPad;
 using alvinhc.TouchPadInterface;
 
 namespace TouchPadAbsoluteMouseControl
@@ -84,7 +83,7 @@ namespace TouchPadAbsoluteMouseControl
         //    HWheel = 0x1000,
         //}
 
-        readonly TouchPad touchPad = new TouchPad();
+        readonly ITouchPad touchPad = new IpcTouchPad(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(Application.ExecutablePath), "SynapticsTouchPadIpcClient.exe"));
         bool enabled = false;
 
         void touchPad_FingerDown(ITouchPad sender, FingerEventArgs e)
